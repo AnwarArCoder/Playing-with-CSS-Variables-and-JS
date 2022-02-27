@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Playing with CSS Variables and JS</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		
+		<div class="playing-variables-js">
+			<h1>Playing with CSS Variables and <span>JS</span></h1>
+			<div class="box-play">
+				<label>Spacing</label>
+				<input type="range" name="spacing" min="0" max="200" value="10" data-sizing="px">
+			</div>
+			<div class="box-play">
+				<label>Blur</label>
+				<input type="range" name="blur" min="0" max="25" value="8" data-sizing="px">
+			</div>
+			<div class="box-play">
+				<label>Color</label>
+				<input type="color" name="color" value="#1abc9c">
+			</div>
+			<div class="img-box">
+				<img src="01_header.jpg" alt="Playing with CSS Variables and JS">
+			</div>
+		</div>
+		
+		
+		<script src="main.js"></script>
+	</body>
+</html>
